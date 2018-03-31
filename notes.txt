@@ -2,7 +2,7 @@ https://github.com/angular/angular-cli/wiki
 
 
 open node.js command prompt
-for install node.js 
+for install node.js
 npm install
 
 for install angular/cli
@@ -36,3 +36,7 @@ Edit code WebStorm and save it and observe change reflected in browser...  no ne
 import bootstrap css
 
 npm install --save bootstrap
+
+-----------------------------------------------------------------
+add line .angular-cli in styles
+"../node_modules/bootstrap/dist/css/bootstrap.min.css",
