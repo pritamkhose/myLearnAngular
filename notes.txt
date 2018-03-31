@@ -1,0 +1,35 @@
+https://github.com/angular/angular-cli/wiki
+
+
+open node.js command prompt
+for install node.js 
+npm install
+
+for install angular/cli
+npm install -g @angular/cli
+
+C:\Users\Pritam>F:
+
+F:> cd F:\Code\Java\AngularCLI
+
+F:\Code\Java\AngularCLI>
+
+// create new  project
+ng new my-project
+// goto project dir
+cd my-project
+F:\Code\Java\AngularCLI\my-project>
+
+download and install JetBrains WebStorm 2018.1 x64 as IDE
+open project -> do dir F:\Code\Java\AngularCLI\myLearn -> ok for open project
+
+// start server by using node js cmd
+ng serve
+
+open chrome and hit URL it show "app Work" html on
+http://localhost:4200/
+
+Edit code WebStorm and save it and observe change reflected in browser...  no need to any extra action
+
+-----------------------------------------------------------------
+
