@@ -7,3 +7,12 @@
 <p [innerText]="allowNewServer"></p>
 <p>{{allowNewServer}}</p>
 <p>{{serverCreationStatus}}</p>
+
+<hr>
+<p>one way binding</p>
+<input type="text" class="form-control" (input)="updateServerName($event)">
+<p [innerText]="serverName"></p>
+<p>two way binding</p>
+<input type="text" class="form-control" [(ngModel)]="serverName">
+<p [innerText]="serverName"></p>
+<hr>
