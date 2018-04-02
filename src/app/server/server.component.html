@@ -6,7 +6,12 @@
 </head>
 <body>
 <p>The Server Component</p>
-<p> {{ 'Server' }} with ID {{ serverId }} is {{ serverStatus }} or by object {{ getServerStatus() }} </p>
+<p [ngStyle] = "{backgroundColor : getColor()}"> {{ 'Server' }} with ID {{ serverId }} is {{ serverStatus }} or by object {{ getServerStatus() }} </p>
+<p
+  [ngStyle] = "{backgroundColor : getColor()}"
+  [ngClass] = "{online : serverStatus === 'online'}" >
+  {{ 'Server' }} with ID {{ serverId }} is {{ serverStatus }} or by object {{ getServerStatus() }} </p>
+
 <app-servers></app-servers>
 
 <hr>
